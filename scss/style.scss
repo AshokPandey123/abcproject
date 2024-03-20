@@ -1,0 +1,101 @@
+
+$brand: #F46A06;
+
+@import url('fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&family=wght@400;500&display=swap');
+body{
+    font-family: 'Roboto',sans-serif;
+    overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700px;
+}
+.navbar-brand
+{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    span
+    {
+        color: $brand;
+    }
+}
+.btn-warning
+{
+    background: $brand;
+    color: #fff !important;
+    border-radius: none;
+}
+.navbar-expand-lg .navbar-nav .nav-link
+{
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: $brand;
+}
+
+.counter
+{
+    background: $brand;
+    color: #fff;
+    i
+    {
+        font-size: 44px;
+    }
+}
+.leaf
+{
+    position: absolute;
+    right: -91px;
+    top: -278px;
+}
+.quote
+{
+    background: url(../img/quote1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.testimonials 
+{
+    background: $brand;
+}
+
+.owl-carousel
+{
+    background: #fff;
+    padding: 40px;
+    margin: 50px 0;
+    max-width: 70%;
+    margin: auto;
+    .owl-dot
+    {
+        width: 10px !important;
+        height: 10px !important;
+        background: $brand !important;
+        margin: 0 3px;
+        border-radius: 50%;
+        &.active
+        {
+            background: #000 !important;
+        }
+    }
+    
+}
+
+.accordion-button::after
+{
+    display: none;
+}
+
+footer
+{
+    background: $brand;
+    color: #fff;
+    ul
+    {
+        list-style: none;
+    }
+}
